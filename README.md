@@ -144,54 +144,6 @@ The correlation heatmap (Trip ID, Duration, Traveler Age) reveals:
 
 ---
 
-## 📁 Project Structure
-
-```
-traveler-trip-analysis/
-│
-├── data/
-│   └── traveler_trip_data.csv          # Raw dataset
-│
-├── notebooks/
-│   └── traveler_analysis.ipynb         # Main EDA notebook
-│
-├── visuals/
-│   ├── nationality_counts.png
-│   ├── gender_pie.png
-│   ├── trip_duration_by_gender.png
-│   ├── age_distribution.png
-│   ├── transport_preferences.png
-│   ├── accommodation_types.png
-│   ├── accommodation_costs.png
-│   ├── duration_vs_cost.png
-│   └── correlation_heatmap.png
-│
-├── presentation/
-│   └── traveler_trip_insights.pdf      # Final slide deck
-│
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-```
-
-### Run the Notebook
-
-```bash
-git clone https://github.com/<your-username>/traveler-trip-analysis.git
-cd traveler-trip-analysis
-jupyter notebook notebooks/traveler_analysis.ipynb
-```
-
----
-
 ## ⚠️ Limitations
 
 1. **Data Bias** — The dataset may not fully represent all traveler types globally; American travelers are heavily overrepresented.
@@ -223,10 +175,3 @@ The analysis reveals that young American travelers dominate the dataset, preferr
 ## 📄 License
 
 This project is for academic and educational purposes.
-
----
-
-## 🙋‍♀️ Author
-
-**Caroline**
-B.E. Computer Science Engineering | RV University, Bangalore
